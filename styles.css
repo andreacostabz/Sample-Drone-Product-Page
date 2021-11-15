@@ -107,3 +107,7 @@ header{
 .nav_button:hover{
     background-color: rgba(204, 76, 26, 0.8);
 }
+
+.main-body{
+    background-color: indigo;
+}
