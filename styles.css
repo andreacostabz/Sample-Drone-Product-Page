@@ -121,3 +121,13 @@ header{
     -o-background-size: cover;
     box-sizing: border-box;
 }
+
+.hero-text {
+    position: absolute;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
