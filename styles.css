@@ -96,10 +96,10 @@ header{
 
 .nav_button{
     border: 0;
-    border-radius: 0.40rem;
+    border-radius: 2rem;
     background: rgb(46, 44, 44);
     color: white;
-    padding: 0.25rem 0.7rem;
+    padding: 0.75rem 1rem;
     margin: 0.25rem;
     cursor: pointer;
 }
@@ -109,5 +109,15 @@ header{
 }
 
 .main-body{
+    box-sizing: border-box;
+}
 
+.main-img{
+    height: 100vh;
+    background-image: url("images/image4.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    box-sizing: border-box;
 }
